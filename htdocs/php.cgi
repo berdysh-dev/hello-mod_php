@@ -4,4 +4,5 @@
     echo "Content-Type: text/plain\r\n" ;
     echo "\r\n" ;
 
-    echo "Hello PHP" ;
+    print_r(getenv()) ;
+    print_r($_SERVER) ;
